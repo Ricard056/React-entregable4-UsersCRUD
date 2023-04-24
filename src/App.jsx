@@ -72,12 +72,3 @@ function App() {
 }
 
 export default App
-
-
-//! Sugerencias a mejorar:
-/* 
--Colocar una clase a la ultima carta seleccionada, asi sabria que datos tengo en Update
--El boton principal de Crear/Update funciona, pero es incomodo perder el boton de Crear 
-una vez que obtengo el boton Update.
--Si sobra tiempo, agregar mas estilos.
-*/
