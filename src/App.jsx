@@ -3,7 +3,7 @@ import './App.css'
 import useUserCrud from './hooks/useUserCard'
 import UserCard from './components/UserCard'
 import FormUser from './components/FormUser'
-import RemoveUser from './components/RemoveUser' 
+import RemoveUser from './components/removeUser' 
 
 function App() {
   
@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="app">
       <header className='app__header'>
-        <h1 className='app__title'>Users</h1>
+        <h1 className='app__title'>Usuarios</h1>
         <button className='app__btn' onClick={handleOpenForm}>{updateInfo ? 'Update User' : 'Create New User'}</button>
       </header>
 
