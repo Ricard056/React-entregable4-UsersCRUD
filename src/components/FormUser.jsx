@@ -67,7 +67,9 @@ const FromUser = ({ createNewUser, updateInfo, updateUserById, setUpdateInfo, se
                     <label className='form__label' htmlFor="birthday">Birthday: </label>
                     <input className='form__input' {...register('birthday')} type="date" id="birthday" />
                 </div>
-                <button className='form__btn' onClick={handleExit}>{updateInfo ? 'Update' : 'Create'}</button>
+                <button className='form__btn' onClick={handleExit}>{updateInfo 
+                ? 'Guardar cambios' 
+                : 'Agregar nuevo usuario'}</button>
             </form>
 
         </div>

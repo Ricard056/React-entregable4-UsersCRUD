@@ -26,7 +26,7 @@ const RemoveUser = ({ removedUser, setFormDelete, formDelete }) => {
                     <i className='bx bx-arrow-back'></i></span>
                 <h3 className='form__title'> Eliminar usuario </h3>
                 <h4 className='form__message'>El usuario <span>{removedUser}</span> se ha eliminado</h4>
-                <button className='form__btn' onClick={handleExit}> Accept </button>
+                <button className='form__btn' onClick={handleExit}> Aceptar </button>
             </article>
         </div>
     )
