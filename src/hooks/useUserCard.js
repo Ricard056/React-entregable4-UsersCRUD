@@ -8,7 +8,7 @@ const useUserCrud = () => {
 
     const [users, setUsers] = useState()
 
-    const url = 'https://users-crud.academlo.tech/users/'
+    const url = 'http://users-crud.academlo.tech/users/'
 
     //!GET
     const getAllUsers = () => {
