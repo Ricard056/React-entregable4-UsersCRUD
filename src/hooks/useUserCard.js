@@ -2,13 +2,13 @@ import axios from "axios"
 import { useState } from "react"
 
 //! https://users-crud.academlo.tech/swagger/ 
-// http://users-crud.academlo.tech/swagger/ //Para netlify (por Protocol: http/1.1)
+// http://users-crud.academlo.tech/swagger/ //Para netlify (por Protocol: http/1.1) ¿?
 
 const useUserCrud = () => {
 
     const [users, setUsers] = useState()
 
-    const url = 'http://users-crud.academlo.tech/users/'
+    const url = 'https://users-crud.academlo.tech/users/'
 
     //!GET
     const getAllUsers = () => {
