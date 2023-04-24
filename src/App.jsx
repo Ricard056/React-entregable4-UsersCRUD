@@ -3,7 +3,7 @@ import './App.css'
 import useUserCrud from './hooks/useUserCard'
 import UserCard from './components/UserCard'
 import FormUser from './components/FormUser'
-import RemoveUser from './components/RemoveUser' 
+import RemoveUser from './components/removeUser' 
 
 function App() {
   
